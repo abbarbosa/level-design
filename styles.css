@@ -1,47 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-@media screen and (min-width: 1336px) and (max-width: 1920px) {
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+    
+}
 
-    .fonteEnunciado {
-        font-family: "Quicksand", sans-serif;
-        color: #fff;
-        font-size: 2.25rem;
-        font-weight: bold;
-        text-align: center;
-    }
+.FonteDoEnunciado {
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+}
 
-    .FonteDoEnunciadoEnsinoSuperior {
-        font-family: "Quicksand", sans-serif;
-        color: #000;
-        font-size: 2.25rem;
-        font-weight: bold;
-        text-align: center;
-    }
+.FonteDoEnunciadoEnsinoSuperior {
+    font-family: "Quicksand", sans-serif;
+    color: #000;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+}
 
-    .botaoPerguntas {
-        font-family: "Quicksand", sans-serif;
-        font-weight: bold;
-        font-size: 1rem;
-        background-color: white;
-        border-bottom: 5px solid black;
-        border-radius: 50px;
-    }
+.botao-das-perguntas {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #fff;
+    border-bottom: 5px solid #000;
+    border-radius: 50px;
+}
 
-    .botaoPerguntasEnsinoMedio {
-        font-family: "Quicksand", sans-serif;
-        font-weight: bold;
-        font-size: 1rem;
-        background-color: white;
-        border-bottom: 5px solid #ccc;
-        border-radius: 50px;
-    }
+.botao-das-perguntas:hover {
+    color: #9b00c2;
+    border-color: #9b00c2;
+    transition: 0.2s;
+}
 
-    .you-win-textos{
-        font-family: "Quicksand", sans-serif;
-        font-weight: bold;
-        font-size: 1.75rem;
-        color: #fff;
-        text-align: center;
-    }
+.botao-das-perguntas:active {
+    background-color: #fff;
+    transform: translateY(4px);
+}
 
+.botao-das-perguntas-ensino-medio {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #fff;
+    border-bottom: 5px solid #ccc;
+    border-radius: 50px;
+}
+
+.you-win-textos {
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
 }
